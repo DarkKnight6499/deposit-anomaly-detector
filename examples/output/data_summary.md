@@ -1,0 +1,10 @@
+# Labelled days and events by type
+
+| event_type | days | events |
+|---|---|---|
+| none | 1560 | 0 |
+| slow_bleed | 251 | 4 |
+| idiosyncratic_run | 109 | 7 |
+| flight_to_quality | 75 | 4 |
+| payment_outage | 24 | 7 |
+| data_glitch | 22 | 11 |

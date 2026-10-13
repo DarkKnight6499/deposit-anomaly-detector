@@ -1,0 +1,10 @@
+# Held-out year: days by severity and true event type
+
+| true_event_type | ALERT | CRITICAL | DATA_QUALITY | WATCH | none |
+|---|---|---|---|---|---|
+| data_glitch | 0 | 0 | 6 | 0 | 0 |
+| flight_to_quality | 3 | 4 | 0 | 5 | 2 |
+| idiosyncratic_run | 4 | 25 | 0 | 2 | 0 |
+| none | 1 | 9 | 0 | 8 | 228 |
+| payment_outage | 0 | 0 | 6 | 0 | 0 |
+| slow_bleed | 2 | 58 | 0 | 1 | 2 |

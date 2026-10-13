@@ -1,0 +1,5 @@
+features,n_features,pr_auc,detection_rate,mean_lead_days,fa_per_year,dq_events_alerted,dq_events_total
+all features,42,0.9372539937422131,1.0,13.25,1.9959016393442623,0,5
+without ops and concentration signals,38,0.9358644633760234,1.0,13.75,2.9938524590163933,0,5
+without market and rate-spread signals,33,0.8441162474430453,1.0,9.0,1.9959016393442623,0,5
+"flows only (no market, no ops)",29,0.8304316374185483,1.0,8.75,1.9959016393442623,0,5

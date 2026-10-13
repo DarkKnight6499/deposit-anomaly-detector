@@ -1,0 +1,18 @@
+# Per-alert explanations (first alert days, held-out year)
+
+Each entry: feature=value (signed SHAP contribution in log-odds).
+
+| date | true_event_type | explanation |
+|---|---|---|
+| 2024-01-19 | slow_bleed | rate_spread_chg10=23.10 (+2.69); bank_cds_bps=77.80 (-1.24); competitor_rate_spread_bps=56.62 (-0.53) |
+| 2024-01-20 | slow_bleed | rate_spread_chg10=30.21 (+2.72); bank_cds_bps=82.02 (-0.66); competitor_rate_spread_bps=63.08 (-0.62) |
+| 2024-01-21 | slow_bleed | rate_spread_chg10=35.82 (+2.79); competitor_rate_spread_bps=69.08 (-0.54); bank_cds_bps=82.81 (-0.30) |
+| 2024-01-22 | slow_bleed | rate_spread_chg10=43.04 (+2.87); bank_cds_bps=82.63 (-0.59); z_retail_uninsured=-0.16 (-0.41) |
+| 2024-01-23 | slow_bleed | rate_spread_chg10=51.48 (+2.78); bank_cds_bps=79.53 (-0.83); market_cds_chg5=5.27 (+0.29) |
+| 2024-01-24 | slow_bleed | rate_spread_chg10=57.70 (+2.72); bank_cds_bps=80.61 (-0.74); z_retail_uninsured=0.95 (+0.40) |
+| 2024-01-25 | slow_bleed | rate_spread_chg10=62.89 (+2.61); bank_cds_bps=81.79 (-0.63); z_retail_uninsured=2.96 (+0.44) |
+| 2024-01-26 | slow_bleed | rate_spread_chg10=64.13 (+2.66); market_cds_chg5=7.84 (+0.45); z_retail_uninsured=4.76 (+0.44) |
+| 2024-01-27 | slow_bleed | rate_spread_chg10=65.73 (+2.31); competitor_rate_spread_bps=107.94 (+1.15); bank_cds_bps=81.65 (-0.51) |
+| 2024-01-28 | slow_bleed | rate_spread_chg10=64.69 (+2.27); competitor_rate_spread_bps=113.82 (+1.38); z_retail_uninsured=1.66 (+0.44) |
+| 2024-01-29 | slow_bleed | competitor_rate_spread_bps=119.85 (+3.40); rate_spread_chg10=63.23 (+1.69); bank_cds_bps=81.52 (-0.46) |
+| 2024-01-30 | slow_bleed | competitor_rate_spread_bps=123.81 (+3.39); rate_spread_chg10=60.73 (+1.81); bank_cds_bps=79.35 (-0.89) |

@@ -1,0 +1,8 @@
+check,value
+days,2041
+first day,2019-06-01
+last day,2024-12-31
+"min balance, $m",3421.6167832642677
+"max abs recon gap on non-glitch days, % of balance",3.838577041459428e-14
+"max abs recon gap on glitch days, % of balance",0.7456513333937289
+share of days labelled liquidity stress,0.21313081822635963
